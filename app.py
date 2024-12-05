@@ -9,11 +9,11 @@ model = joblib.load('gazmodel.pkl')
 st.title('Gaz Narxini Bashorat Qilish')
 
 # Foydalanuvchidan input olish
-open_price = st.number_input('Open Narxi:', min_value=0.0, value=50.0)
+open_price = st.number_input('Kun boshidagi Narxi:', min_value=0.0, value=50.0)
 high_price = st.number_input('High Narxi:', min_value=0.0, value=55.0)
-low_price = st.number_input('Low Narxi:', min_value=0.0, value=45.0)
-adj_close = st.number_input('Adjusted Close Narxi:', min_value=0.0, value=50.0)
-volume = st.number_input('Volume:', min_value=0, value=500000)
+low_price = st.number_input('Kun so"ngidagi Narxi:', min_value=0.0, value=45.0)
+adj_close = st.number_input('So"ngi aniq Narxi:', min_value=0.0, value=50.0)
+volume = st.number_input('Bir kunlik gaz sotuvi $ da:', min_value=0, value=500000)
 
 # Foydalanuvchi parametrlarini DataFrame ga joylashtirish
 input_data = pd.DataFrame({
