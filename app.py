@@ -8,7 +8,7 @@ st.title("Gaz narxi bashorati")
 st.write("Kelajakdagi sanani tanlang va bashoratlangan gaz narxini ko'ring.")
 
 # 1. Modelni yuklash
-model = joblib.load("gaz.pkl")  # Gaz narxi model fayli yuklangan deb hisoblanadi
+model = joblib.load("gaznarxi.pkl")  # Gaz narxi model fayli yuklangan deb hisoblanadi
 
 # 2. Foydalanuvchidan kelajakdagi sanani olish
 future_date = st.date_input("Sanani tanlang:", value=datetime(2024, 12, 13))
