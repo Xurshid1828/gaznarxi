@@ -28,10 +28,10 @@ if st.button("Bashoratni ko'rish"):
         "DayOfYear": [day_of_year]
     })
     prediction = model.predict(input_data)
-    st.write(f"Bashorat qilingan gaz narxi: **{prediction[0]:,.2f} so'm**")
+    st.write(f"Bashorat qilingan gaz narxi: **{prediction[0]:,.2f} dollar**")
 
 # 4. Qo'shimcha ma'lumot
-st.write("Gaz narxi ma'lumotlari asosida bashorat qilingan modeldan foydalaniladi.")
+st.write("1 .")
 
 
 # import streamlit as st
