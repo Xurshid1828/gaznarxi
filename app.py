@@ -31,7 +31,7 @@ if st.button("Bashoratni ko'rish"):
     st.write(f"Bashorat qilingan gaz narxi: **{prediction[0]:,.2f} dollar**")
 
 # 4. Qo'shimcha ma'lumot
-st.write("1 .")
+st.write("Gaz narxi ma'lumotlari asosida bashorat qilingan modeldan foydalaniladi.")
 
 
 # import streamlit as st
